@@ -1,8 +1,8 @@
 # Code from requests library
 # https://github.com/psf/requests/blob/master/requests/structures.py
 
-from collections import OrderedDict, MutableMapping, Mapping
-
+from collections import OrderedDict
+from collections.abc import MutableMapping, Mapping
 
 class CaseInsensitiveDict(MutableMapping):
     """A case-insensitive ``dict``-like object.
